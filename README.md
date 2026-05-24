@@ -1,6 +1,7 @@
 Solar PV Temperature vs Output Analysis & Cooling Comparison ☀️💧
 
-Author: [Your Name Here]
+Author: Jasmine Hatchico Salsabila
+Credit: Ahmad Bara Wirayudha
 
 Tools Used: Python (Pandas, Matplotlib, Seaborn), Excel, Jupyter Notebook
 
