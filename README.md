@@ -53,6 +53,25 @@ Install dependencies: pip install pandas matplotlib seaborn
 
 Run the analysis script: python solar_analysis.py
 
+🔬 Advanced Analysis & Calculated Metrics
+
+To expand beyond basic data plotting, several calculated metrics were engineered from the raw dataset to measure the exact efficiency gained by the cooling system:
+
+1. Multi-Day Environmental Tracking
+
+Data was collected across a 3-day timeframe to account for variations in solar irradiance and ambient temperatures. The analysis isolates Sunny vs Cloudy conditions to prove that thermal losses impact panels differently based on the weather.
+
+2. Relative Power Gain Calculation
+
+Instead of just looking at raw wattage, I engineered a new feature: Relative Power Gain (%).
+Formula used: ((Cooled Power - Standard Power) / Standard Power) * 100
+
+This calculation clearly demonstrates that as the standard panel's temperature rises, the relative advantage (efficiency gain) of the cooled panel increases significantly.
+
+3. Time-Series Consistency
+
+By tracking the performance over Day 1, Day 2, and Day 3, the data confirms that the water-cooling system provides a much more stable output curve during peak afternoon hours, smoothing out the power drops typically caused by thermal overload.
+
 💡 Next Steps in My Portfolio
 
 [ ] Build a Solar Panel Performance Simulator (Interactive Calculator).
