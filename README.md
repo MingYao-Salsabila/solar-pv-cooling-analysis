@@ -1,7 +1,12 @@
 # ☀️ Solar PV Temperature vs Output Analysis Dashboard
 
-Interactive Streamlit dashboard for analysing solar PV performance:
-standard panels vs water-cooled panels across multi-day measurements.
+*Main Developer:** Jasmine Hatchico Salsabila  
+**Collaborator:** [Ahmad Bara Wirayudha](https://github.com/AhmadBaraWirayudha)  
+**Tools Used:** Python, Excel.
+
+This project analyzes real-world experimental data to understand the relationship between solar photovoltaic (PV) operating temperature and power output. Specifically, it compares a standard 50W Polycrystalline solar panel against one equipped with a water cooling system.
+
+**Key Thesis:** Reducing thermal losses via a water cooling system significantly increases the overall efficiency and power stability of solar PV systems in high-temperature environments.
 
 ## Folder structure
 
@@ -87,3 +92,25 @@ weather loss, cooling gain, inverter η, battery capacity.
 | matplotlib | 3.7.0 |
 
 Python 3.8 or newer.
+
+---
+
+## Next Steps in My Portfolio
+
+- [ ] **Interactive Cost-Benefit Analysis:** ROI calculator comparing cooling system cost vs annual energy gains
+- [ ] **Multi-Location Comparison:** Analyze performance across Indonesia's diverse climate zones (Medan, Jakarta, Surabaya, Denpasar)
+- [ ] **Seasonal Variations:** Extend dataset to monsoon & dry seasons
+- [ ] **Cooling System Design:** Thermodynamic model of the water circulation loop
+- [ ] **Grid Integration Study:** Compare off-grid vs grid-tied performance with cooling
+- [ ] **Real-time Monitoring Dashboard:** Web-based system with data logging from IoT sensors
+      
+---
+
+## References & Standards
+
+- **IEC 61215:** Standard for photovoltaic module performance
+- **PVCDROM:** NREL Solar Radiation Database
+- **Temperature Coefficients:** −0.45%/°C (typical crystalline silicon)
+- **Fill Factor Reference:** 0.75–0.82 for commercial panels
+
+---
