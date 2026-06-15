@@ -1,6 +1,6 @@
 # ☀️ Solar PV Temperature vs Output Analysis Dashboard
 
-*Main Developer:** Jasmine Hatchico Salsabila  
+**Main Developer:** Jasmine Hatchico Salsabila  
 **Collaborator:** [Ahmad Bara Wirayudha](https://github.com/AhmadBaraWirayudha)  
 **Tools Used:** Python, Excel.
 
